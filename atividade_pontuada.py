@@ -26,7 +26,7 @@ def calcular_irrf(salario_bruto):
     else:
         aliquota = 0.275
 
-    desconto_irrf = (salario_bruto * aliquota) - (dependentes * quantidade_dependentes)
+    desconto_irrf = (salario_bruto * aliquota) - (ndependentes * quantidade_dependentes)
     return desconto_irrf
 
 def calcular_transporte (salario_bruto):
@@ -43,6 +43,7 @@ def calcular_refeicao(valor_refeicao):
 
 def calcular_dependente(dependentes):
     if dependentes == "s":
+        numer
         
 
 
